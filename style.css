@@ -1,0 +1,42 @@
+.image {
+	max-height: 300px;
+	width: 100%;
+	object-fit: cover;
+	clear: left;
+}
+
+.image2 {
+	width: 60%;
+	padding: 0px;
+}
+
+.centrado{
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	max-width: 450px;
+	margin: auto;
+}
+
+.centrado2{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.container-fluid{
+	margin-bottom: 30px;
+}
+
+.card-title{
+	margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+	.centrado2{
+		text-align: justify;
+		padding-top:50px;
+		padding-bottom: 30px;
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
