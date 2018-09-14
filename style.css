@@ -1,3 +1,7 @@
+.navbar{
+	height: 100px;
+}
+
 .image {
 	max-height: 300px;
 	width: 100%;
@@ -25,17 +29,23 @@
 
 .container-fluid{
 	margin-bottom: 30px;
+	background-color: rgb(143, 124, 125, 0.1);
+
 }
 
 .card-title{
-	margin-top: 30px;
+	padding-top: 30px;
+}
+
+.card{
+	background-color: rgb(248, 166, 172, 0.01);
 }
 
 @media (max-width: 768px) {
 	.centrado2{
 		text-align: justify;
-		padding-top:50px;
-		padding-bottom: 30px;
+		padding-top:10px;
+		padding-bottom: 10px;
 		padding-right: 40px;
 		padding-left: 40px;
 	}
