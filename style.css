@@ -121,6 +121,11 @@ body{
 	margin-bottom: 2rem!important;
 }
 
+.fa {
+	font-size: 1.5em!important;
+	margin-left: 1.5rem!important;
+}
+
 @media (max-width: 768px) {
 	.centrado2{
 		text-align: justify;
@@ -132,27 +137,36 @@ body{
 
 	.contenedor{
 		font-family: 'Poiret One', cursive;
-		font-weight: bold;
+	}
+
+	.contenedor ul {
+		margin-top: 30px;
 	}
 
 	.title{
-		color:black;
+		color:white;
 		font-size: 25px;
-		font-weight: bolder;
-		padding: 20px;
+		padding: 25px;
+		font-family: 'Cinzel', serif;
+		text-shadow: 2px 2px 2px black;
 	}
 
 	.contenedor li {
-		color: black;
-		font-size: 20px;
+		color: white;
+		font-size: 23px;
 		margin: 0 20px 35px -10px;
-		text-align: justify;
+		/*text-align: justify;*/
+		text-shadow: 2px 2px 2px black;
+		margin-top: 10px;
 	}
 
-	.contenedor li:hover {
-		color: black;
+	.fa {
+		font-size: 2em!important;
 	}
 
+	.mb-4{
+		margin-bottom: 0px!important;
+	}
 }
 
 @media (min-width: 970px) {
