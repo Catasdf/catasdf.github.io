@@ -1,8 +1,83 @@
-.image {
-	max-height: 300px;
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Cinzel|Carter+One');
+
+body{
+	background-color: #343a40;
+}
+
+/*.navbar, .navbar-brand, .nav-link {
+	background-color: #2A2E32 !important;
+	color: #ADB3B7 !important;
+}
+
+.navbar-toggler-icon{
+	background-color: #ADB3B7 !important;
+	}*/
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 100px !important;
+	}
+
+	.contenedor{
+		height: 600px;
+		text-align: left;
+		font-family: 'Poiret One', cursive;
+		text-shadow: 2px 2px 2px black;
+		background-color: grey;
+	/*display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;*/
+    position: relative;
+    z-index: 5;
+}
+
+.bg{
+	background-image: url(img/image8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+	opacity: .5;
 	width: 100%;
-	object-fit: cover;
-	clear: left;
+	height: 100%;
+}
+
+.title{
+	color: white;
+	font-size: 50px;
+	font-family: 'Cinzel', serif;
+	/*font-family: 'Carter One', cursive;*/
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+	padding: 40px;
+}
+
+.contenedor ul {
+	list-style-type: none;
+}
+
+.contenedor li {
+	margin: 0 0 35px 20%;
+	color: white;
+	font-weight: bolder;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px black;
+}
+
+.contenedor2{
+	height: 300px;
+	background-image: url(img/image6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+}
+
+.text-img {
+	color:white;
 }
 
 .image2 {
@@ -24,9 +99,10 @@
 }
 
 .container-fluid{
-	margin-bottom: 30px;
-	background-color: rgb(143, 124, 125, 0.1);
-
+	/*margin-bottom: 30px;
+	*/
+	width: 90%;
+	background-color: white;
 }
 
 .card-title{
@@ -37,6 +113,14 @@
 	background-color: rgb(248, 166, 172, 0.01);
 }
 
+.mr-3{
+	margin-left: 2rem!important;
+}
+
+.mt-5{
+	margin-bottom: 2rem!important;
+}
+
 @media (max-width: 768px) {
 	.centrado2{
 		text-align: justify;
@@ -45,10 +129,35 @@
 		padding-right: 40px;
 		padding-left: 40px;
 	}
+
+	.contenedor{
+		font-family: 'Poiret One', cursive;
+		font-weight: bold;
+	}
+
+	.title{
+		color:black;
+		font-size: 25px;
+		font-weight: bolder;
+		padding: 20px;
+	}
+
+	.contenedor li {
+		color: black;
+		font-size: 20px;
+		margin: 0 20px 35px -10px;
+		text-align: justify;
+	}
+
+	.contenedor li:hover {
+		color: black;
+	}
+
 }
 
 @media (min-width: 970px) {
 	.navbar{
-		height: 100px;
-	}	
+		height: 80px;
+	}
 }
+
