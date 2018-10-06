@@ -4,6 +4,10 @@ body{
 	background-color: #343a40;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*.navbar, .navbar-brand, .nav-link {
 	background-color: #2A2E32 !important;
 	color: #ADB3B7 !important;
@@ -143,6 +147,10 @@ body{
 	margin-left: 1.5rem!important;
 }
 
+.border-secondary {
+	border-color: black !important;
+}
+
 @media (max-width: 768px) {
 	.centrado2{
 		text-align: justify;
@@ -198,9 +206,5 @@ body{
 	.navbar{
 		height: 80px;
 	}
-}
-
-.border-secondary {
-	border-color: black !important;
 }
 

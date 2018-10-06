@@ -6,105 +6,107 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"><!-- Font Awesome ????-->
 	<link href="css/mdb.min.css" rel="stylesheet">    <!-- Material Design Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">¿
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav id="nav-principal" class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">Tu Condominio Hoy</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-			<ul class="navbar-nav">
+			<ul class="navbar-nav nav-pills">
 				<li class="nav-item">
 					<a class="nav-link" href="#">Inicio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Reseña</a>
+					<a class="nav-link" href="#resena">Reseña</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Servicios</a>
+					<a class="nav-link" href="#servicios">Servicios</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Contacto</a>
+					<a class="nav-link" href="#contacto">Contacto</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
 
-	<div class="contenedor">
-		<div class="bg"></div>
-		<p class="title">Mejorar la calidad de tu condominio</p>
-		<ul>
-			<li>Recaudación decente</li>
-			<li>¿Mejorar la coolaboración de tus vecinos?</li>
-			<li>Personal de confianza</li>
-			<li>¿Mayor seguridad en tu condominio?</li>
-		</ul>
-	</div>
-
-	<div class="container-fluid">
-		<h2 class="card-title text-center">Bienvenidos a Tu Condominio Hoy</h2>
-		<hr>	
-		<div class="row">
-			<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-			
-			<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+	<div data-spy="scroll" data-target="#nav-principal" data-offset="0"> <!-- TODO -->
+		<div class="contenedor">
+			<div class="bg"></div>
+			<p class="title">Mejorar la calidad de tu condominio</p>
+			<ul>
+				<li>Recaudación decente</li>
+				<li>¿Mejorar la coolaboración de tus vecinos?</li>
+				<li>Personal de confianza</li>
+				<li>¿Mayor seguridad en tu condominio?</li>
+			</ul>
 		</div>
-		<div class="row">
-			<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-			
-			<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+		<div class="container-fluid" id="resena">
+			<h2 class="card-title text-center">Bienvenidos a Tu Condominio Hoy</h2>
+			<hr>	
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+				<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+				<div class="col-sm-12 col-md-6 col-lg-6 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+			</div>
 		</div>
-	</div>
 
-	<div class="contenedor2">
-		<h1 class="text-img">SERVICIOS</h1>
-	</div>
+		<div class="contenedor2" id="servicios">
+			<h1 class="text-img">SERVICIOS</h1>
+		</div>
 
-	<div class="container-fluid">		
-		<div class="row">
-			<div class="col-sm-12 col-md-4 col-lg-4 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-			
-			<div class="col-sm-12 col-md-4 col-lg-4 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+		<div class="container-fluid">		
+			<div class="row">
+				<div class="col-sm-12 col-md-4 col-lg-4 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 
-			<div class="col-sm-12 col-md-4 col-lg-4 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+				<div class="col-sm-12 col-md-4 col-lg-4 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+				<div class="col-sm-12 col-md-4 col-lg-4 centrado2"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+			</div>
 		</div>
 	</div>
 
@@ -116,7 +118,7 @@
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
-			
+
 			<div class="col-sm-12 col-md-5 col-lg-5 centrado">
 				<div class="card border-secondary">
 					<div class="card-body text-secondary">
@@ -128,7 +130,7 @@
 		</div>
 	</div>
 
-	<div class="contenedor3">
+	<div class="contenedor3" id="contacto">
 		<h1 class="text-img2">CONTACTO</h1>
 	</div>
 
@@ -139,41 +141,14 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
 		</div>
 	</div>
-
-	<!-- Footer 
-	<footer class="page-footer font-small elegant-color-dark">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 py-5">
-					<div class="mb-5 flex-center">
-						<a class="fb-ic">
-							<i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-						</a>
-						<a class="ins-ic">
-							<i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-						</a>
-						<a class="arrow">
-							<i class="fa fa-arrow-up fa-lg white-text mr-md-5 mr-3 fa-2x" aria-hidden="true"></i>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="footer-copyright text-center py-3">© 2018 Copyright:
-			<a href="https://mdbootstrap.com/bootstrap-tutorial/"> Rojas Alarcón</a>
-		</div>
-	</footer>
-	<!-- End Footer -->
-
 
 	<!-- Footer -->
 	<footer class="page-footer font-small elegant-color-dark">
